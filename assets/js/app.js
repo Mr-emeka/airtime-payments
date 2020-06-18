@@ -8,4 +8,17 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((res) => {
       console.log(res);
     });
-});
+
+  const modal = document.querySelector('.modale');
+  const open = () => {
+    modal.classList.add('opened')
+  }
+  const close = () => {
+    modal.classList.remove('opened')
+  }
+  document.querySelector('.add-icon').addEventListener('click', open)
+  document.querySelector('.closemodale').addEventListener('click', close)
+
+})
+
+

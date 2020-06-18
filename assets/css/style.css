@@ -45,7 +45,7 @@ body {
   display: block;
 }
 
-.wrapper .sidebar ul li a .fas {
+.wrapper .sidebar ul li a .fa {
   width: 25px;
 }
 
@@ -98,4 +98,60 @@ body {
 
 .wrapper .main_content .info div {
   margin-bottom: 20px;
+}
+
+
+
+
+
+/* Dasboard  style*/
+
+.dashboard-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.card {
+  max-width: 100%;
+  height: 150px;
+  max-height: 200px;
+  background-color: #bdb8d7;
+  padding: 20px;
+}
+
+.ml-2 {
+  margin-left: 3px;
+
+}
+
+.fa.fa-plus {
+  width: 25px;
+  color: white;
+  font-size: 1.3em;
+}
+
+.add-icon {
+  position: fixed;
+  bottom: 20px;
+  cursor: pointer;
+  background: #4b4276;
+  padding: 20px 0;
+  width: 50px;
+  color: white;
+  height: 50px;
+  border-radius: 50%;
+  right: 20px;
+  text-align: center;
+}
+
+@media(max-width:780px) {
+  .dashboard-info {
+    grid-template-columns: 1fr;
+    grid-gap: .2em;
+  }
+
+  .wrapper .main_content .info div {
+    margin-bottom: 5px;
+  }
 }

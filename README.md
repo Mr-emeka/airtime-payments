@@ -1,8 +1,8 @@
 # HNG Airtime Payment Web App
 
-> [** Main Hosted URL Netlify**](https://codeddave.github.io/airtime-payments/index.html)
+> [**Main URL**](https://hngairtimepurchase.web.app/)
 
-> [**Hosted URL ghpages**](https://codeddave.github.io/airtime-payments/index.html)
+> [**Hosted URL gh-pages**](https://codeddave.github.io/airtime-payments/index.html)
   
 
 ## Contributors

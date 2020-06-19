@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <script src="https://use.fontawesome.com/543fe4bf02.js"></script>
+  <title>Airtime Transactions</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="sidebar">
+      <h2>
+        <span><img src="./assets/img/logo.jpg" alt="" class="logo" />HNG</span>
+      </h2>
+      <ul>
+        <li>
+          <a href="index.html"><i class="fa fa-home ml-2"></i>Home</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-user ml-2"></i>Transactions</a>
+        </li>
+      </ul>
+    </div>
+    <div class="main_content">
+      <div class="header">Welcome to HNG Airtime Payment Dashboard.</div>
+      <div class="info">
+        <div class="dashboard-info">
+          <div class="card">
+            <h3>Total Interns</h3>
+            <spanc>100</span>
+          </div>
+          <div class="card">
+            <h3> Successful Transactions</h3>
+            <spanc>100</span>
+
+          </div>
+          <div class="card">
+            <h3>Wallet Balance</h3>
+            <spanc>100</span>
+          </div>
+        </div>
+        <div>
+          <div class="input-search">
+            <input type="search" placeholder="search for intern" />
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Intern's Name</th>
+                <th>Telphone</th>
+                <th>Network</th>
+                <th>Airtime Amount</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modale">
+        <div class="modal-dialog">
+          <div class="modal-header">
+            <h2>Add New Intern</h2>
+            <span class="btn-close closemodale">&times;</span>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <form class="form">
+                <div class="group">
+                  <input type="text" name="internname" class="intern-name" required />
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Name</label>
+                </div>
+                <div class="group">
+                  <input type="tel" name="number" class="intern-number" required />
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Tel</label>
+                </div>
+                <span class="group">
+                  <select name="internname" class="select" required>
+                    <option name="none">----</option>
+                    <option name="Airtel"> Airtel</option>
+                    <option name="glo">Glo </option>
+                    <option name="etisalat">Etisalat</option>
+                    <option name="mtn">Mtn</option>
+                  </select>
+                  <span class="highlight"></span>
+            </div>
+            <!-- <div class="group">
+                  <input type="number" name="internname" required />
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Amount</label>
+                </div> -->
+
+            <a href="#" class="btn add-intern">Add Intern</a>
+            </form>
+          </div>
+
+          <div class="modal-footer">
+            &copy; airtime purchase
+          </div>
+        </div>
+      </div>
+      <!-- /Modal -->
+
+      <div class="add-icon"><i class=" fa fa-plus"></i></div>
+
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <!-- <script src="/__/firebase/7.15.1/firebase-app.js"></script>
+      <script src="/__/firebase/7.15.1/firebase-database.js"></script> -->
+
+      <!-- TODO: Add SDKs for Firebase products that you want to use -->
+      <!--https://firebase.google.com/docs/web/setup#available-libraries -->
+
+      <!-- Initialize Firebase -->
+      <!-- <script src="/__/firebase/init.js"> -->
+      <!-- </script> -->
+
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/7.15.2/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.15.2/firebase-database.js"></script>
+
+      <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+      <!-- PLACE HERE  -->
+
+
+      <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
